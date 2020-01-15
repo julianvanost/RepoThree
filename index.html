@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Form</title>
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript"></script>
+</head>
+
+<body>
+    <h1 class="title-header">Create Account</h1>
+    <section class="section-1">
+        <form id="form-one" method="post" action="submit">
+            <table class="form-table input-group">
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="text" class="form-inputs" name="name" placeholder="First name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" class="form-inputs" name="last-name" placeholder="Last name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="tel" class="form-inputs" id="phone" name="phone" placeholder="Phone #" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            <!-- <input type="number" class="form-inputs" name="phone" placeholder="Phone"> -->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="form-inputs" type="email" placeholder="Email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit" name="btn-submit" id="btn-submit">Submit!</button>
+                            <div id="error_message" class="ajax_response"></div>
+                            <div id="success_message" class="ajax_response"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </section>
+</body>
+
+</html>
