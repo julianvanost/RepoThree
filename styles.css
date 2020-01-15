@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title-header {
+    color: #2e2e2e;
+    font-size: 36px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-1 {
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+}
+
+.form-table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.form-inputs {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    font-size: x-large;
+    border: 1px groove #000;
+}
+
+#btn-submit {
+    float: right;
+    width: 83px;
+    height: 35px;
+    margin-right: 6px;
+    border-radius: 3px;
+    background: #92d2ff;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2px;
+    border: 1px groove #000000;
+}
+
+.ajax_response {
+    float: right;
+}
